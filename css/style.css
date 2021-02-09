@@ -4,6 +4,10 @@
 ul.critères_des_cheveux {
 list-style: none;  
 }
+.col-md-7.text-center {
+  padding: 7rem 0;
+}
+
 /* ============================= */
 html {
   overflow-x: hidden; }
