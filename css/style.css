@@ -1,4 +1,10 @@
 /* Base */
+
+/* ============================= */
+ul.critères_des_cheveux {
+list-style: none;  
+}
+/* ============================= */
 html {
   overflow-x: hidden; }
 
