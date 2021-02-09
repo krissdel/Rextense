@@ -7,6 +7,14 @@ list-style: none;
 .col-md-7.text-center {
   padding: 7rem 0;
 }
+.questions_type {
+  list-style: none;
+  
+}
+/* li:before {
+  content: '- ';
+} */
+
 
 /* ============================= */
 html {
