@@ -11,9 +11,6 @@ list-style: none;
   list-style: none;
   
 }
-/* li:before {
-  content: '- ';
-} */
 img.img-fluid.mr-3 {
   border-radius: 40%;
 }
@@ -24,7 +21,9 @@ img.img-fluid.mr-3 {
 .testimonial-2 {
   height: 12pc;
 }
-
+.d-flex.v-card.align-items-center.mb-4 {
+  height: 50px;
+}
 
 /* ============================= */
 html {
@@ -501,7 +500,7 @@ h1, h2, h3, h4, h5,
     padding: 0;
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
-      color:  !important; }
+      color: #0c31cd !important; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
@@ -574,7 +573,7 @@ h1, h2, h3, h4, h5,
           transition: 0s all;
           color: #000 !important; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown a.active {
-            color:  !important;
+            color: #0c31cd !important;
             background: #f8f9fa; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
           list-style: none;
@@ -597,7 +596,7 @@ h1, h2, h3, h4, h5,
             background: #f8f9fa;
             color: #ced4da; }
       .site-navbar .site-navigation .site-menu .has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children:focus > a, .site-navbar .site-navigation .site-menu .has-children:active > a {
-        color: ; }
+        color: #0c31cd; }
       .site-navbar .site-navigation .site-menu .has-children:hover, .site-navbar .site-navigation .site-menu .has-children:focus, .site-navbar .site-navigation .site-menu .has-children:active {
         cursor: pointer; }
         .site-navbar .site-navigation .site-menu .has-children:hover > .dropdown, .site-navbar .site-navigation .site-menu .has-children:focus > .dropdown, .site-navbar .site-navigation .site-menu .has-children:active > .dropdown {
@@ -677,7 +676,7 @@ h1, h2, h3, h4, h5,
       position: relative;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: ; }
+        color: #0c31cd; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
