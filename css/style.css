@@ -17,6 +17,11 @@ list-style: none;
 img.img-fluid.mr-3 {
   border-radius: 40%;
 }
+.post-entry-1-contents {
+  display: flex;
+  height: 21pc;
+}
+
 
 /* ============================= */
 html {
