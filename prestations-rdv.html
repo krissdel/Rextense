@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <title>R'EXTENSE</title>
@@ -20,7 +20,8 @@
 
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="css/style.css">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -85,7 +86,7 @@
             <div class="col-md-7">
               <h1 class="mb-3">QUELLE PRESTATION SOUHAITEZ VOUS ? </h1>
               <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.</p> -->
-              <p><a href="#" class="btn btn-primary">Prendre rendez vous</a></p>
+              <p><a href="#contactez-moi" class="btn btn-primary">Contactez moi</a></p>
             </div>
           </div>
         </div>
@@ -110,24 +111,28 @@
           </div>
         </div>
         <div class="row">
+
           <div class="col-lg-4 mb-4 mb-lg-0">
             <div class="testimonial-2">
               <div class="d-flex v-card align-items-center mb-4">
 
                 <h5>Devis gratuit et commande d’extension sur mesure </h5>
               </div>
-
-
+              <a href="https://calendly.com/rextense-contact/30min" target="blank">
+                <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Rendez vous">
+              </a>
+            </div>
+          </div>
 
 <!-- ----------[modal devis gratuit]------------------------- -->
 
               <!-- Button trigger modal -->
-              <button type="button"class="btn btn-block btn-primary text-white py-3 px-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <!-- <button type="button"class="btn btn-block btn-primary text-white py-3 px-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                Rendez vous
-              </button>
+              </button> -->
 
               <!-- Modal -->
-              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+              <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                 tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
@@ -144,11 +149,10 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
 <!-- ----------------------------------->
               <!-- <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Rendez vous"> -->
-            </div>
-          </div>
+         
 
 
 
@@ -156,14 +160,14 @@
           <div class="col-lg-4 mb-4 mb-lg-0">
             <div class="testimonial-2">
               <div class="d-flex v-card align-items-center mb-4">
-                <!-- <img src="images/person_2.jpg" alt="Image" class="img-fluid mr-3">
-                <span>Jean Stanley</span> -->
                 <h5>Pose d’extension à froid </h5>
               </div>
-              <blockquote>
-
-              </blockquote>
+              
+              <a href="https://calendly.com/rextense-contact/pose-d-extensions" target="blank">
               <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Rendez vous">
+            </a>
+              
+              <!-- <p>Contactez moi</a></p> -->
 
             </div>
           </div>
@@ -176,10 +180,9 @@
                 <h5>Dépose d’extensions</h5>
 
               </div>
-              <blockquote>
-
-              </blockquote>
-              <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Rendez vous">
+              <a href="https://calendly.com/rextense-contact/60min" target="blank">
+                <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Rendez vous">
+              </a>
 
             </div>
           </div>
@@ -218,42 +221,58 @@
     <div class="site-section bg-light" id="contact-section">
       <div class="container">
         <div class="row justify-content-center text-center">
-          <div class="col-7 text-center mb-5">
+          <div id="contactez-moi" class="col-7 text-center mb-5">
             <h2>Contactez Moi</h2>
 
           </div>
         </div>
         <div class="row">
           <div class="col-lg-8 mb-5">
-            <form action="#" method="post">
+
+
+
+<!-- ----------------------------------- -->
+            <form action="javascript:rextenseContact()" name="rextenseContact" method="post">
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
-                  <input type="text" class="form-control" placeholder="Nom">
+                  <input type="text" id="name" size=50 maxlength=50 class="form-control" placeholder="nom" required>
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="Prénom">
+                  <input type="text" id="prenom" size=50 maxlength=50 class="form-control" placeholder="prenom" required>
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <input type="text" class="form-control" placeholder="Adresse Email">
+                  <input type="email" id="email" class="form-control" placeholder="Adresse Email" required>
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <textarea name="" id="" class="form-control" placeholder="Ecrivez votre message." cols="30"
-                    rows="10"></textarea>
+                  <textarea name="message" id="message" class="form-control" placeholder="Ecrivez votre message." cols="30"
+                    rows="10" required></textarea>
                 </div>
               </div>
               <div class="form-group row">
                 <div class="col-md-6 mr-auto">
+                  <!-- <a href="mailto:delormechrist@gmail.com">Ecrivez-moi</a>  -->
                   <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="envoyer Message">
                 </div>
               </div>
             </form>
+
+<!-- ----------------------------------- -->
+
+
           </div>
+
+
+
+
+
+
+
           <div class="col-lg-4 ml-auto">
             <div class="bg-white p-3 p-md-5">
               <h3 class="text-black mb-4">Contact Info</h3>
@@ -343,8 +362,10 @@
   <script src="js/bootstrap-datepicker.min.js"></script>
   <script src="js/aos.js"></script>
 
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script> 
+  
   <script src="js/main.js"></script>
-  <script src="js/index.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
 
 </body>
 
