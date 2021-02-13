@@ -24,6 +24,9 @@ img.img-fluid.mr-3 {
 .d-flex.v-card.align-items-center.mb-4 {
   height: 50px;
 }
+.img-fluid.mb-5 {
+  max-width: 30%;
+}
 /* =======[calender]================ */
 
 
