@@ -1,7 +1,7 @@
 /* Base */
 
 /* ============================= */
-ul.critères_des_cheveux {
+.lead {
 list-style: none;  
 }
 .col-md-7.text-center {
@@ -1358,6 +1358,7 @@ h1, h2, h3, h4, h5,
   background: #fff;
   padding: 20px; }
   .post-entry-1 .post-entry-1-contents h2 {
+    text-align: center;
     font-size: 22px;
     margin-bottom: 20px; }
     .post-entry-1 .post-entry-1-contents h2 a {
