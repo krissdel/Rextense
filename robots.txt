@@ -1,0 +1,8 @@
+
+Sitemap: https://rextense.com/index.html/sitemap.xml
+https://rextense.com/index.html	2021-02-20T13:55:38+00:00	1.00
+https://rextense.com/extensions-naturelles.html	2021-02-20T13:55:19+00:00	0.80
+https://rextense.com/shampoings-soins.html	2021-02-20T13:56:46+00:00	0.80
+https://rextense.com/entretien.html	2021-02-20T13:55:02+00:00	0.80
+https://rextense.com/photos.html	2021-02-20T13:56:08+00:00	0.80
+https://rextense.com/prestations-rdv.html	2021-02-20T13:56:26+00:00	0.80
