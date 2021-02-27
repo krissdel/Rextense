@@ -11,6 +11,9 @@ list-style: none;
   list-style: none;
   
 }
+.img-fluid1 {
+max-width: 30%;
+}
 img.img-fluid.mr-3 {
   border-radius: 50%;
 }
