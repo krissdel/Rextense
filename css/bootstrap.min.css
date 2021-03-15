@@ -531,7 +531,7 @@ pre {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 25%;
   flex: 0 0 25%;
-  max-width: 18%; }
+  max-width: 100%; }
 
 .col-4 {
   -webkit-box-flex: 0;
@@ -6418,7 +6418,9 @@ button.bg-dark:focus {
   position: static !important; }
 
 .position-relative {
-  position: relative !important; }
+  position: relative !important;
+  display: flex;
+  justify-content: center; }
 
 .position-absolute {
   position: absolute !important; }
