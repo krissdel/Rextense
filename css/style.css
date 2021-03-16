@@ -493,6 +493,8 @@ h1, h2, h3, h4, h5,
     position: absolute;
     right: 0px; }
   .site-navbar .site-logo {
+    justify-content: center;
+    display: flex;
     margin: 0;
     padding: 0;
     font-size: 1.7rem; }
