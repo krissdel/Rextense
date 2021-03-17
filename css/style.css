@@ -31,6 +31,26 @@ img.img-fluid.mr-3 {
 .img-fluid.mb-5 {
   max-width: 30%;
 }
+.villes {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 992px){
+  .ville-groupe{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+
+/* .ville-groupe {
+  display: flex;
+  justify-content: space-between;
+  width: 30pc;
+} */
+
 /* =======[calender]================ */
 
 
@@ -486,6 +506,8 @@ h1, h2, h3, h4, h5,
   width: 100%;
   padding: 1rem; }
   @media (max-width: 991.98px) {
+  
+      
     .site-navbar {
       padding-top: 3rem;
       padding-bottom: 3rem; } }
